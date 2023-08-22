@@ -1,7 +1,7 @@
 
 import { useState, useEffect } from 'react';
 import { getFirestore, collection, getDocs } from 'firebase/firestore';
-//import  db  from './firebase';
+
 import app from './firebase';
 
 const useFetch = (blogs) => {
