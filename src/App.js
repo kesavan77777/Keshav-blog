@@ -14,7 +14,7 @@ function App() {
           <Route exact path='/' >
               <Home></Home>
           </Route>
-          <Route path="/create">
+          <Route path="/create" component={create}>
               <Create></Create>
           </Route>
           <Route path="/blogs/:id">
