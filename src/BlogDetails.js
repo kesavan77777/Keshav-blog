@@ -42,7 +42,7 @@ const BlogDetails = () => {
     };
 
     fetchBlog();
-  }, [id, getFirestore(app)]);
+  }, [id]);
 
   return ( 
     <div className="blog-details">
