@@ -1,7 +1,7 @@
 
 import { useEffect, useState } from 'react';
 import { useHistory, useParams } from "react-router-dom";
-import { collection, doc, deleteDoc, getFirestore, getDoc } from "firebase/firestore";
+import {  doc, deleteDoc, getFirestore, getDoc } from "firebase/firestore";
 import  app  from "./firebase";
 
 const BlogDetails = () => {
